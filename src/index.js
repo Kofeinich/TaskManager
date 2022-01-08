@@ -1,4 +1,5 @@
 import React from 'react';
+import {StrictMode} from "react";
 import ReactDOM from 'react-dom';
 import App from './App';
 import {createGlobalStyle} from "styled-components";
@@ -14,8 +15,9 @@ const Global = createGlobalStyle`
 `
 
 ReactDOM.render(
-    <Global>
+    <StrictMode>
+        <Global/>
         <App/>
-    </Global>,
+    </StrictMode>,
     document.getElementById('root')
 );

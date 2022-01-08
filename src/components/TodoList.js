@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Title from "./styles/Title";
 import TodoForm from './TodoForm';
 import Todo from './Todo';
@@ -44,7 +44,7 @@ function TodoList() {
     return (
         <>
             <Title children="What's plan for today"/>
-            <TodoForm onSubmit={addTodo} />
+            <TodoForm onSubmit={addTodo}/>
             <Todo
                 todos={todos}
                 completeTodo={completeTodo}

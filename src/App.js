@@ -6,7 +6,7 @@ function App() {
     return (
     <BrowserRouter>
         <Routes>
-            <Route path="/todo" element={<MainPage/>}/>
+            <Route path="/" element={<MainPage/>}/>
         </Routes>
     </BrowserRouter>
     );
