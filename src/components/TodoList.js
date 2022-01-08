@@ -43,7 +43,7 @@ function TodoList() {
 
     return (
         <>
-
+            <Title children="What's plan for today"/>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}

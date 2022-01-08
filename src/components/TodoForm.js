@@ -49,7 +49,7 @@ function TodoForm(props) {
                         ref={inputRef}
                     />
                     <button onClick={handleSubmit} >
-                        Add lkm
+                        Add task
                     </button>
                 </>
             )}
